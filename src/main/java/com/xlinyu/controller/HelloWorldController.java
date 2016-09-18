@@ -20,7 +20,7 @@ public class HelloWorldController {
     public User user(){
         User user = new User();
         user.setId(1);
-        user.setUsername("张三");
+        user.setUsername("张三--Jrebel...ctrl+f9-->>>||");
         user.setPassword("abc123");
         return user;
     }
