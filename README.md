@@ -27,3 +27,7 @@ JPA全称Java Persistence API.
 application.properties
 
 server.port=9090
+
+## context-path
+
+server.context-path=/spring-boot
