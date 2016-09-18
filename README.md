@@ -22,3 +22,8 @@ SpringBoot 之旅
 
 JPA全称Java Persistence API.
 
+## 端口配置
+
+application.properties
+
+server.port=9090
