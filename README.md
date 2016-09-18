@@ -31,3 +31,10 @@ server.port=9090
 ## context-path
 
 server.context-path=/spring-boot
+
+## 静态资源
+
+优先级顺序为：
+
+META/resources > resources > static > public  (已进行测试)
+
