@@ -21,7 +21,7 @@ public class DemoController {
     private DemoService demoService;
 
     @ResponseBody
-    @RequestMapping("/demo/{message}")
+    @RequestMapping("/demo/{message}/{asdfa}")
     public Demo saveDemo(@PathVariable String message){
 
         Demo demo = new Demo();
@@ -35,5 +35,11 @@ public class DemoController {
     public List<Demo> demos(){
         List<Demo> demos = demoService.demos();
         return demos;
+    }
+
+    @ResponseBody
+    @RequestMapping("/demo")
+    public Demo demo(int id){
+        return demoService.findOne(id);
     }
 }
